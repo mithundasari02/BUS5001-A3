@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/515 [00:00<?, ?it/s]Loading weights:  23%|██▎       | 117/515 [00:00<00:00, 1124.50it/s]Loading weights:  56%|█████▌    | 289/515 [00:00<00:00, 1412.37it/s]Loading weights:  83%|████████▎ | 430/515 [00:00<00:00, 1145.80it/s]Loading weights: 100%|██████████| 515/515 [00:00<00:00, 1112.58it/s]
+[ 1] environment_facilities (0.20) / urgency CRITICAL (0.43)
+[ 2] waste_contamination (0.41) / urgency CRITICAL (0.37)
+[ 3] environment_facilities (0.44) / urgency MEDIUM (0.35)
+[ 4] supplier_governance (0.56) / urgency CRITICAL (0.51)
+[ 5] accessibility_inclusion (0.40) / urgency HIGH (0.31)
+[ 6] waste_contamination (0.44) / urgency CRITICAL (0.47)
+[ 7] accessibility_inclusion (0.25) / urgency MEDIUM (0.51)
+[ 8] environment_facilities (0.22) / urgency CRITICAL (0.52)
+[ 9] general_enquiry_feedback (0.55) / urgency CRITICAL (0.57)
+[10] accessibility_inclusion (0.32) / urgency MEDIUM (0.36)
+
+Saved 10 rows -> /content/drive/MyDrive/Projects/web/bus5001-a3/q3-llm-triage/results/zero_shot_baseline.json

@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "message": "There is a water leak in Building C that has been running all morning.",
+    "issue_category": "environment_facilities",
+    "issue_confidence": 0.196,
+    "top3": [
+      {
+        "label": "environment_facilities",
+        "score": 0.196
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.183
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.18
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.176
+      },
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.114
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.093
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.058
+      }
+    ],
+    "urgency": "CRITICAL",
+    "urgency_scores": {
+      "CRITICAL": 0.428,
+      "HIGH": 0.324,
+      "MEDIUM": 0.18,
+      "LOW": 0.068
+    }
+  },
+  {
+    "id": 2,
+    "message": "The recycling bins are contaminated again and no one seems to be checking them.",
+    "issue_category": "waste_contamination",
+    "issue_confidence": 0.408,
+    "top3": [
+      {
+        "label": "waste_contamination",
+        "score": 0.408
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.158
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.118
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.104
+      },
+      {
+        "label": "environment_facilities",
+        "score": 0.095
+      },
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.088
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.029
+      }
+    ],
+    "urgency": "CRITICAL",
+    "urgency_scores": {
+      "CRITICAL": 0.369,
+      "HIGH": 0.26,
+      "MEDIUM": 0.235,
+      "LOW": 0.136
+    }
+  },
+  {
+    "id": 3,
+    "message": "The air conditioning is running overnight in an empty office.",
+    "issue_category": "environment_facilities",
+    "issue_confidence": 0.44,
+    "top3": [
+      {
+        "label": "environment_facilities",
+        "score": 0.44
+      },
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.264
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.116
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.098
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.03
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.028
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.024
+      }
+    ],
+    "urgency": "MEDIUM",
+    "urgency_scores": {
+      "MEDIUM": 0.348,
+      "LOW": 0.233,
+      "CRITICAL": 0.23,
+      "HIGH": 0.189
+    }
+  },
+  {
+    "id": 4,
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+    "issue_category": "supplier_governance",
+    "issue_confidence": 0.56,
+    "top3": [
+      {
+        "label": "supplier_governance",
+        "score": 0.56
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.153
+      },
+      {
+        "label": "environment_facilities",
+        "score": 0.086
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.079
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.065
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.036
+      },
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.021
+      }
+    ],
+    "urgency": "CRITICAL",
+    "urgency_scores": {
+      "CRITICAL": 0.51,
+      "HIGH": 0.233,
+      "MEDIUM": 0.183,
+      "LOW": 0.074
+    }
+  },
+  {
+    "id": 5,
+    "message": "The accessible entrance near the main building has been blocked for two days.",
+    "issue_category": "accessibility_inclusion",
+    "issue_confidence": 0.403,
+    "top3": [
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.403
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.173
+      },
+      {
+        "label": "environment_facilities",
+        "score": 0.136
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.075
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.075
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.072
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.066
+      }
+    ],
+    "urgency": "HIGH",
+    "urgency_scores": {
+      "HIGH": 0.307,
+      "MEDIUM": 0.306,
+      "CRITICAL": 0.282,
+      "LOW": 0.104
+    }
+  },
+  {
+    "id": 6,
+    "message": "Chemical drums have been dumped behind the loading dock, they smell strong and the drain runs to the creek.",
+    "issue_category": "waste_contamination",
+    "issue_confidence": 0.439,
+    "top3": [
+      {
+        "label": "waste_contamination",
+        "score": 0.439
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.167
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.115
+      },
+      {
+        "label": "environment_facilities",
+        "score": 0.113
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.075
+      },
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.056
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.035
+      }
+    ],
+    "urgency": "CRITICAL",
+    "urgency_scores": {
+      "CRITICAL": 0.471,
+      "HIGH": 0.267,
+      "MEDIUM": 0.192,
+      "LOW": 0.071
+    }
+  },
+  {
+    "id": 7,
+    "message": "Just a note that the new caf\u00e9 is doing a great job with the reusable cup program, keep it up.",
+    "issue_category": "accessibility_inclusion",
+    "issue_confidence": 0.249,
+    "top3": [
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.249
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.244
+      },
+      {
+        "label": "environment_facilities",
+        "score": 0.221
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.148
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.062
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.054
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.022
+      }
+    ],
+    "urgency": "MEDIUM",
+    "urgency_scores": {
+      "MEDIUM": 0.508,
+      "LOW": 0.194,
+      "HIGH": 0.165,
+      "CRITICAL": 0.132
+    }
+  },
+  {
+    "id": 8,
+    "message": "Water leak near the printer on level 3, the floor is getting slippery close to the electrical switchboard.",
+    "issue_category": "environment_facilities",
+    "issue_confidence": 0.219,
+    "top3": [
+      {
+        "label": "environment_facilities",
+        "score": 0.219
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.207
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.202
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.144
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.096
+      },
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.087
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.046
+      }
+    ],
+    "urgency": "CRITICAL",
+    "urgency_scores": {
+      "CRITICAL": 0.518,
+      "HIGH": 0.229,
+      "MEDIUM": 0.167,
+      "LOW": 0.086
+    }
+  },
+  {
+    "id": 9,
+    "message": "Where can I find the sustainability policy for catering purchases?",
+    "issue_category": "general_enquiry_feedback",
+    "issue_confidence": 0.547,
+    "top3": [
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.547
+      },
+      {
+        "label": "environment_facilities",
+        "score": 0.131
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.099
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.09
+      },
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.064
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.047
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.022
+      }
+    ],
+    "urgency": "CRITICAL",
+    "urgency_scores": {
+      "CRITICAL": 0.573,
+      "HIGH": 0.184,
+      "MEDIUM": 0.152,
+      "LOW": 0.091
+    }
+  },
+  {
+    "id": 10,
+    "message": "The outdoor lights at the depot stay on all day even in full sun.",
+    "issue_category": "accessibility_inclusion",
+    "issue_confidence": 0.323,
+    "top3": [
+      {
+        "label": "accessibility_inclusion",
+        "score": 0.323
+      },
+      {
+        "label": "environment_facilities",
+        "score": 0.28
+      },
+      {
+        "label": "energy_waste",
+        "score": 0.179
+      },
+      {
+        "label": "general_enquiry_feedback",
+        "score": 0.08
+      },
+      {
+        "label": "supplier_governance",
+        "score": 0.072
+      },
+      {
+        "label": "unsafe_disposal_environment_risk",
+        "score": 0.036
+      },
+      {
+        "label": "waste_contamination",
+        "score": 0.031
+      }
+    ],
+    "urgency": "MEDIUM",
+    "urgency_scores": {
+      "MEDIUM": 0.359,
+      "CRITICAL": 0.245,
+      "LOW": 0.203,
+      "HIGH": 0.193
+    }
+  }
+]

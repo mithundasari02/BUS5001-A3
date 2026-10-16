@@ -1,0 +1,194 @@
+Local LLM run — Qwen/Qwen2.5-1.5B-Instruct on CPU (torch 2.11.0+cpu, temperature 0 / greedy)
+======================================================================
+
+[1] (136s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "environment_facilities",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities & Environment Management",
+  "escalation_reason": "immediate_risk",
+  "data_sensitivity_risk": "HIGH",
+  "brief_summary": "Water leak in Building C continues to run all morning.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "environment_facilities", "urgency": "CRITICAL", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Facilities & Environment Management", "escalation_reason": "immediate_risk", "data_sensitivity_risk": "HIGH", "brief_summary": "Water leak in Building C continues to run all morning.", "triage_confidence": "high"}
+
+[2] (272s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "waste_contamination",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Procurement Governance",
+  "escalation_reason": "immediate_risk",
+  "data_sensitivity_risk": "HIGH",
+  "brief_summary": "Recycling bins contaminated again without checks.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "waste_contamination", "urgency": "CRITICAL", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Procurement Governance", "escalation_reason": "immediate_risk", "data_sensitivity_risk": "HIGH", "brief_summary": "Recycling bins contaminated again without checks.", "triage_confidence": "high"}
+
+[3] (251s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "energy_waste",
+  "urgency": "MEDIUM",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities & Environment Management",
+  "escalation_reason": null,
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "Air conditioning running overnight in an empty office.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "energy_waste", "urgency": "MEDIUM", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Facilities & Environment Management", "escalation_reason": null, "data_sensitivity_risk": "LOW", "brief_summary": "Air conditioning running overnight in an empty office.", "triage_confidence": "high"}
+
+[4] (123s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "supplier_governance",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Procurement Governance",
+  "escalation_reason": "immediate_risk",
+  "data_sensitivity_risk": "HIGH",
+  "brief_summary": "Supplier may not meet sustainability policy.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "supplier_governance", "urgency": "CRITICAL", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Procurement Governance", "escalation_reason": "immediate_risk", "data_sensitivity_risk": "HIGH", "brief_summary": "Supplier may not meet sustainability policy.", "triage_confidence": "high"}
+
+[5] (157s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "accessibility_inclusion",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Workplace Inclusion & Access",
+  "escalation_reason": "immediate_risk",
+  "data_sensitivity_risk": "HIGH",
+  "brief_summary": "Main building access point blocked for two days.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "accessibility_inclusion", "urgency": "CRITICAL", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Workplace Inclusion & Access", "escalation_reason": "immediate_risk", "data_sensitivity_risk": "HIGH", "brief_summary": "Main building access point blocked for two days.", "triage_confidence": "high"}
+
+[6] (139s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "unsafe_disposal_environment_risk",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Security & HSE",
+  "escalation_reason": "immediate_risk",
+  "data_sensitivity_risk": "HIGH",
+  "brief_summary": "Strong chemical smells detected near the loading dock, causing concern about potential environmental impact.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "unsafe_disposal_environment_risk", "urgency": "CRITICAL", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Security & HSE", "escalation_reason": "immediate_risk", "data_sensitivity_risk": "HIGH", "brief_summary": "Strong chemical smells detected near the loading dock, causing concern about potential environmental impact.", "triage_confidence": "high"}
+
+[7] (119s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "general_enquiry_feedback",
+  "urgency": "POSITIVE",
+  "sentiment": "NEUTRAL",
+  "followup_required": "N",
+  "recommended_team": "Sustainability Office",
+  "escalation_reason": null,
+  "data_sensitivity_risk": "NONE",
+  "brief_summary": "Note on reusable cup program success.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "general_enquiry_feedback", "urgency": "POSITIVE", "sentiment": "NEUTRAL", "followup_required": "N", "recommended_team": "Sustainability Office", "escalation_reason": null, "data_sensitivity_risk": "NONE", "brief_summary": "Note on reusable cup program success.", "triage_confidence": "high"}
+
+[8] (126s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "environment_facilities",
+  "urgency": "CRITICAL",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities & Environment Management",
+  "escalation_reason": "immediate_risk",
+  "data_sensitivity_risk": "HIGH",
+  "brief_summary": "Water leak near printer causing slippery floor near electrical switchboard.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "environment_facilities", "urgency": "CRITICAL", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Facilities & Environment Management", "escalation_reason": "immediate_risk", "data_sensitivity_risk": "HIGH", "brief_summary": "Water leak near printer causing slippery floor near electrical switchboard.", "triage_confidence": "high"}
+
+[9] (121s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "general_enquiry_feedback",
+  "urgency": "LOW",
+  "sentiment": "NEUTRAL",
+  "followup_required": "N",
+  "recommended_team": "Sustainability Office",
+  "escalation_reason": null,
+  "data_sensitivity_risk": "NONE",
+  "brief_summary": "Need information on catering purchase sustainability policies.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "general_enquiry_feedback", "urgency": "LOW", "sentiment": "NEUTRAL", "followup_required": "N", "recommended_team": "Sustainability Office", "escalation_reason": null, "data_sensitivity_risk": "NONE", "brief_summary": "Need information on catering purchase sustainability policies.", "triage_confidence": "high"}
+
+[10] (115s) ok
+PROMPT: CONTEXT - routing rules in this organisation
+- Environmental incidents and building issues (water, energy, waste, damage) go to Facilities & Environment Management.
+- Risks to people or the environmen...
+RAW: ```json
+{
+  "issue_category": "ACCESSIBILITY_INCLUSION",
+  "urgency": "MEDIUM",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Workplace Inclusion & Access",
+  "escalation_reason": null,
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "Outdoor lights at depot remain on during daylight hours.",
+  "triage_confidence": "high"
+}
+```
+PARSED: {"issue_category": "ACCESSIBILITY_INCLUSION", "urgency": "MEDIUM", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "Workplace Inclusion & Access", "escalation_reason": null, "data_sensitivity_risk": "LOW", "brief_summary": "Outdoor lights at depot remain on during daylight hours.", "triage_confidence": "high"}
+
+Total wall time: 26.2 min

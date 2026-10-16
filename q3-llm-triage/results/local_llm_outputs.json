@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "message": "There is a water leak in Building C that has been running all morning.",
+    "llm_output": {
+      "issue_category": "environment_facilities",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities & Environment Management",
+      "escalation_reason": "immediate_risk",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Water leak in Building C continues to run all morning.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"environment_facilities\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities & Environment Management\",\n  \"escalation_reason\": \"immediate_risk\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Water leak in Building C continues to run all morning.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 136.5
+  },
+  {
+    "id": 2,
+    "message": "The recycling bins are contaminated again and no one seems to be checking them.",
+    "llm_output": {
+      "issue_category": "waste_contamination",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Governance",
+      "escalation_reason": "immediate_risk",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Recycling bins contaminated again without checks.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"waste_contamination\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Procurement Governance\",\n  \"escalation_reason\": \"immediate_risk\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Recycling bins contaminated again without checks.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 272.3
+  },
+  {
+    "id": 3,
+    "message": "The air conditioning is running overnight in an empty office.",
+    "llm_output": {
+      "issue_category": "energy_waste",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities & Environment Management",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Air conditioning running overnight in an empty office.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"energy_waste\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities & Environment Management\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Air conditioning running overnight in an empty office.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 251.0
+  },
+  {
+    "id": 4,
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+    "llm_output": {
+      "issue_category": "supplier_governance",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Governance",
+      "escalation_reason": "immediate_risk",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Supplier may not meet sustainability policy.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"supplier_governance\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Procurement Governance\",\n  \"escalation_reason\": \"immediate_risk\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Supplier may not meet sustainability policy.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 123.1
+  },
+  {
+    "id": 5,
+    "message": "The accessible entrance near the main building has been blocked for two days.",
+    "llm_output": {
+      "issue_category": "accessibility_inclusion",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Workplace Inclusion & Access",
+      "escalation_reason": "immediate_risk",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Main building access point blocked for two days.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"accessibility_inclusion\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Workplace Inclusion & Access\",\n  \"escalation_reason\": \"immediate_risk\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Main building access point blocked for two days.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 156.6
+  },
+  {
+    "id": 6,
+    "message": "Chemical drums have been dumped behind the loading dock, they smell strong and the drain runs to the creek.",
+    "llm_output": {
+      "issue_category": "unsafe_disposal_environment_risk",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Security & HSE",
+      "escalation_reason": "immediate_risk",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Strong chemical smells detected near the loading dock, causing concern about potential environmental impact.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"unsafe_disposal_environment_risk\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Security & HSE\",\n  \"escalation_reason\": \"immediate_risk\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Strong chemical smells detected near the loading dock, causing concern about potential environmental impact.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 139.2
+  },
+  {
+    "id": 7,
+    "message": "Just a note that the new caf\u00e9 is doing a great job with the reusable cup program, keep it up.",
+    "llm_output": {
+      "issue_category": "general_enquiry_feedback",
+      "urgency": "POSITIVE",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Sustainability Office",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "NONE",
+      "brief_summary": "Note on reusable cup program success.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"general_enquiry_feedback\",\n  \"urgency\": \"POSITIVE\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Sustainability Office\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"NONE\",\n  \"brief_summary\": \"Note on reusable cup program success.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 119.1
+  },
+  {
+    "id": 8,
+    "message": "Water leak near the printer on level 3, the floor is getting slippery close to the electrical switchboard.",
+    "llm_output": {
+      "issue_category": "environment_facilities",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities & Environment Management",
+      "escalation_reason": "immediate_risk",
+      "data_sensitivity_risk": "HIGH",
+      "brief_summary": "Water leak near printer causing slippery floor near electrical switchboard.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"environment_facilities\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities & Environment Management\",\n  \"escalation_reason\": \"immediate_risk\",\n  \"data_sensitivity_risk\": \"HIGH\",\n  \"brief_summary\": \"Water leak near printer causing slippery floor near electrical switchboard.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 125.8
+  },
+  {
+    "id": 9,
+    "message": "Where can I find the sustainability policy for catering purchases?",
+    "llm_output": {
+      "issue_category": "general_enquiry_feedback",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Sustainability Office",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "NONE",
+      "brief_summary": "Need information on catering purchase sustainability policies.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"general_enquiry_feedback\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Sustainability Office\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"NONE\",\n  \"brief_summary\": \"Need information on catering purchase sustainability policies.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 120.6
+  },
+  {
+    "id": 10,
+    "message": "The outdoor lights at the depot stay on all day even in full sun.",
+    "llm_output": {
+      "issue_category": "ACCESSIBILITY_INCLUSION",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Workplace Inclusion & Access",
+      "escalation_reason": null,
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Outdoor lights at depot remain on during daylight hours.",
+      "triage_confidence": "high"
+    },
+    "raw_response": "```json\n{\n  \"issue_category\": \"ACCESSIBILITY_INCLUSION\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Workplace Inclusion & Access\",\n  \"escalation_reason\": null,\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Outdoor lights at depot remain on during daylight hours.\",\n  \"triage_confidence\": \"high\"\n}\n```",
+    "note": "ok",
+    "gen_seconds": 115.1
+  }
+]
